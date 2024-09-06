@@ -1,0 +1,351 @@
+.container{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 20px;
+    
+}
+.imgntxt{
+    display: flex;
+    align-items: center;
+}
+.homeMainTxt{
+    flex: 1;
+    z-index: 3;
+    color: #fffffe;
+    margin-right: 20px;
+}
+.homeMainTxt p{
+    /*color: #a786df;*/
+    color: white;
+}
+.round-corners{
+    border-radius: 100px;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+}
+.headshot{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    opacity: 80%;
+}
+.homeIcons{
+    margin-top: 10px;
+    display: flex;
+}
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centers content horizontally */
+    padding: 5px 10px; /* Adjust padding for size */
+    border: 3px solid #64b5f6;
+    background-color: white;
+    cursor: pointer;
+    color: #64b5f6;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+    text-align: center;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.button:hover{
+    /*color: blueviolet;
+    border-color: blueviolet;*/
+    color: #42a5f5;
+    border-color: #42a5f5;
+}
+.button span{
+    font-size: 12px;
+    margin-left: 10px;
+}
+a{
+    text-decoration: none;
+}
+/* home css ^
+
+/* #fffffe white???
+#f9f8fc basically white
+#fec7d7 light pink
+#d9d4e7 light grey
+#a786df lavender
+*/
+.aboutContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    color: #fffffe;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.aboutMainText {
+    margin-bottom: 20px; /* Adds some space below the main text */
+}
+.aboutMainText h2{
+    transform: translate(20%,0%);
+}
+.aboutContent {
+    display: flex;
+    justify-content: center; /* Center the child elements horizontally */
+    align-items: center;
+    width: 100%;
+}
+
+.aboutImgTxt, .aboutMeImg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px; /* Adds space between the two divs */
+}
+
+.aboutImg {
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.aboutImgTxt p, .aboutMeImg p {
+    margin: 10px 0;
+}
+
+
+
+
+/* projects screen*/
+
+/*.pContainer{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    flex-direction: column;
+    top: 75%;
+    left: 50%;
+    padding: 0 20px;
+    color: #fffffe;
+}   */
+.projMainText{
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.pSecondaryText{
+    display: flex;
+    flex-direction: column;
+}
+.projectItem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+.projectItem h2{
+    margin-left: 70px;
+}
+.projectItem p{
+    margin: 0;
+    margin-right: 10px;
+}
+.projectDesc{
+    margin-top: 5px;
+    padding-bottom: 10px;
+}
+.projectContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.gitHubButton {
+    display: flex; /* Use Flexbox for layout */
+    align-items: center; /* Vertically center items */
+    justify-content: center; /* Horizontally center items */
+    padding: 10px 20px;
+    border: 2px solid #64b5f6;
+    background-color: white;
+    cursor: pointer;
+    color: #64b5f6;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .gitHubButton .icon {
+    margin-right: 8px; /* Space between icon and text */
+  }
+  
+
+.gitHubButton:hover{
+    color: #42a5f5;
+    border-color: #42a5f5;
+}
+
+/* qualifications/resume page */
+.resumePDF{
+    color: rgb(229, 174, 174);
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.resumePDF:visited{
+color: white;
+}
+.download{
+    padding-left: 10px;
+}
+.qualificationButton{
+    padding: 5px 20px;
+    /*border: 2px solid #64b5f6;
+    background-color: white;*/
+    cursor: pointer;
+    color: white;
+    /*border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.4);*/
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    display: inline-block;
+    font-weight: bold;
+    font-style: italic;
+}
+.qualContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    color: #fffffe;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* contact page */
+
+.contactContainer {
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
+
+.homeIcons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border: 2px solid #64b5f6;
+    background-color: white;
+    cursor: pointer;
+    color: #64b5f6;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+    text-align: center;
+}
+
+.button span {
+    margin-left: 10px;
+}
+
+.textArea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* Space between fields */
+}
+
+.fieldContainer {
+    display: flex;
+    align-items: center; /* Aligns label and textarea vertically center */
+    justify-content: flex-start; /* Aligns items to the left */
+    gap: 10px; /* Adds space between label and textarea */
+    width: 100%; /* Ensures each field container takes full width */
+    max-width: 400px; /* Optional: Sets a max width to control the form's width */
+}
+
+.label {
+    font-size: 18px;
+    white-space: nowrap; /* Prevents text wrapping */
+    text-align: right; /* Aligns text to the right */
+}
+
+textarea {
+    padding: 8px;
+    flex: 1; /* Allows text area to take the remaining space in the field container */
+}
+
+.cntLink {
+    color: white;
+    text-decoration: none;
+    flex-direction: column;
+}
+
+.contactContainer a {
+    display: block;
+    margin: 20px;
+}
+
+.cntBtn {
+    margin-right: 10px;
+}
+
+a:visited {
+    color: white;
+}
+
+.field {
+    text-align: right;
+}
+
+
+
+/*smaller screens*/
+
+@media screen and (max-width: 768px) {
+    .container {
+      padding: 0 10px;
+    }
+  
+    .aboutContainer {
+      text-align: left;
+      margin-top: 10px;
+    }
+
+    .aboutMainText{
+        margin-top: 30px;
+    }
+  
+    .aboutImgTxt {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .qualContainer{
+        margin-top: 40px;
+    }
+    .projectItem{
+        margin-top: 40px;
+    }
+    
+    .contactContainer{
+        left: 23%;
+    }
+    
+}
