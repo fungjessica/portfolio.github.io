@@ -197,6 +197,7 @@ a{
     font-size: 20px;
     margin-top: 15px;
     margin-bottom: 15px;
+    color: white;
 }
 .resumePDF:visited{
 color: white;
@@ -297,7 +298,9 @@ textarea {
     text-decoration: none;
     flex-direction: column;
 }
-
+.cntLink:visited {
+    color: white;
+}
 .contactContainer a {
     display: block;
     margin: 20px;

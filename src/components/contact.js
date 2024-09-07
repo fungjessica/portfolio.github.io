@@ -46,7 +46,7 @@ export default function Contact(){
                 
                 {/*<button className='button'>
                 </button>*/}
-                <a href='email'>
+                <a href='https://www.google.com'>
                     <FontAwesomeIcon icon={faEnvelope} className='cntBtn'/>
                     <span className='contactTxt'>Prefer to email me directly? Click here</span>
                 </a>
