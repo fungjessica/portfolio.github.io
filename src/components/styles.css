@@ -192,7 +192,7 @@ a{
 
 /* qualifications/resume page */
 .resumePDF{
-    color: rgb(229, 174, 174);
+    /*color: rgb(229, 174, 174);*/
     text-decoration: none;
     font-size: 20px;
     margin-top: 15px;

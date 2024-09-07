@@ -1,16 +1,17 @@
 import React from 'react';
 import './styles.css';
 import CollapsibleSection from './collapsibleSection';
+import res from './assets/Resume.pdf';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
 export default function Resume(){
     return(
         <div className='qualContainer'>
             
-            <a href='/assets/Resume.pdf' target='_blank' className='resumePDF'>
+            <a href={res} target='_blank' className='resumePDF' rel='noopener noreferrer'>
                 Downloadable Resume
-                <FontAwesomeIcon icon="fa-solid fa-download" className='download'/>
-                
+                <FontAwesomeIcon icon={faDownload} className='download' />
             </a>
             
             <CollapsibleSection title='Technical Skills'>

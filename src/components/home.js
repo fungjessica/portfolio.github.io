@@ -3,7 +3,7 @@ import './styles.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faHandshake } from '@fortawesome/free-solid-svg-icons';
-
+import linkedpfp from './assets/linkedpfp.jpg';
 
 export default function Home(){
     return(
@@ -14,7 +14,7 @@ export default function Home(){
                     <p>I'm an aspiring Cybersecurity Analyst</p>
                 </div>
                 <div className='round-corners'>
-                    <img className='headshot' src='/assets/linkedpfp.jpg' alt='profile'/>
+                    <img className='headshot' src={linkedpfp} alt='profile'/>
                     
                 </div>
             </div>

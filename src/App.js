@@ -1,7 +1,7 @@
 
 import './App.css';
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './components/home';
 import About from './components/about';
@@ -13,7 +13,7 @@ import '@fortawesome/fontawesome-svg-core/styles.css';
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <div className="App">
         <Navbar>
         </Navbar>
@@ -27,7 +27,7 @@ function App() {
           </Routes>
           
       </div>
-    </BrowserRouter>
+    </Router>
   );
 }
 

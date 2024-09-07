@@ -33,7 +33,7 @@ export default function Contact(){
                 <button className='button'>
                     
                     <span style={{ fontSize: '13px', marginLeft: '5px' }} className='buttonTxt'>Submit</span>
-                    <FontAwesomeIcon icon="fa-solid fa-paper-plane" style={{ fontSize: '13px', marginLeft: '5px' }} className='plane'/>
+                    <FontAwesomeIcon icon={faPaperPlane} style={{ fontSize: '13px', marginLeft: '5px' }} className='plane'/>
                 </button>
             </div>
             <div className='cntLink'>

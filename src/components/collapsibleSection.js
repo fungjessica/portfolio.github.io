@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
 function CollapsibleSection({ title, children }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +13,7 @@ function CollapsibleSection({ title, children }) {
     <div className="collapsible-section">
       <span className="qualificationButton" onClick={toggleSection}>
         {title}
-        <FontAwesomeIcon icon="fa-solid fa-chevron-down" className='download'/>
+        <FontAwesomeIcon icon={faChevronDown} className='download'/>
       </span>
       {isOpen && <div className="content">{children}</div>}
     </div>

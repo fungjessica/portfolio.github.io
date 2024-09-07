@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles.css';
+import sjsuTower from './assets/sjsuTower.jpg';
 
 export default function About(){
     return(
@@ -9,7 +10,7 @@ export default function About(){
             </div>
                 <div className='aboutContent'>
                     <div className='aboutMeImg'>
-                        <img className='aboutImg' src='/assets/sjsuTower.jpg' alt='SJSU Tower'/>
+                        <img className='aboutImg' src={sjsuTower} alt='SJSU Tower'/>
                     </div>
                     <div className='aboutImgTxt'>
                         <p>My name is Jessica and I am a senior at San Jose State
