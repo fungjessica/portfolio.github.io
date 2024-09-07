@@ -13,7 +13,7 @@ import '@fortawesome/fontawesome-svg-core/styles.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/portfolio.github.io'>
       <div className="App">
         <Navbar>
         </Navbar>
