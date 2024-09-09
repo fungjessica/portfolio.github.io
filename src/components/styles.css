@@ -250,8 +250,6 @@ color: white;
 
 .button {
     display: flex;
-    align-items: center;
-    justify-content: center;
     padding: 10px 20px;
     border: 2px solid #64b5f6;
     background-color: white;
@@ -266,38 +264,43 @@ color: white;
     margin-left: 10px;
 }
 
-.textArea {
+.textArea, input[type='text'], input[type='email'] {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px; /* Space between fields */
+    width: 100%; /* or a fixed width, like 400px */
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 14px;
 }
 
 .fieldContainer {
     display: flex;
     align-items: center; /* Aligns label and textarea vertically center */
-    justify-content: flex-start; /* Aligns items to the left */
     gap: 10px; /* Adds space between label and textarea */
-    width: 100%; /* Ensures each field container takes full width */
+    width: 50%; /* Ensures each field container takes full width */
     max-width: 400px; /* Optional: Sets a max width to control the form's width */
+    
 }
 
 .label {
     font-size: 18px;
     white-space: nowrap; /* Prevents text wrapping */
     text-align: right; /* Aligns text to the right */
+    margin-bottom: 15px;
 }
-
+.message{
+    font-size: 18px;
+    white-space: nowrap; /* Prevents text wrapping */
+    text-align: right; /* Aligns text to the right */
+      
+}
 textarea {
     padding: 8px;
     flex: 1; /* Allows text area to take the remaining space in the field container */
 }
 
-.cntLink {
-    color: white;
-    text-decoration: none;
-    flex-direction: column;
-}
+
 .cntLink:visited {
     color: white;
 }

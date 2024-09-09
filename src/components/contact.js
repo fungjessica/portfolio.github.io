@@ -4,37 +4,55 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import { faPaperPlane } from '@fortawesome/free-regular-svg-icons';
+import emailjs from 'emailjs-com';
+import { useRef } from 'react';
 
-export default function Contact(){
+const Contact = () =>{
+    const form = useRef();
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_f2r441c', 'template_16whui8', form.current, '5phpKFCSwe_MKQ14E').then((result) => {
+            console.log(result.text);
+            alert("Message sent!");
+        }, (error) => {
+            console.log(error.text);
+            alert("Failed to send message!");
+        });
+        
+            
+    }
     return(
-        <div className='contactContainer'>
-            <div className='contactHeader'>
-                <h2><strong>Get in Touch</strong></h2>
-            </div>
+        <form ref={form} onSubmit={sendEmail} className='contact-form'>
+            <div className='contactContainer'>
+                <div className='contactHeader'>
+                    <h2><strong>Get in Touch</strong></h2>
+                </div>
             
             {/*<h2><strong>Send an Inquiry</strong></h2>*/}
             <div className='textArea'>
                 <div className='fieldContainer'>
                     <label className='label'>Your Name</label>
-                    <textarea name='field' rows={1} cols={30}></textarea>
+                    <input type='text' id='name' name='name' required className='form-input' />
                 </div>
                 <div className='fieldContainer'>
                     <label className='label'>Email</label>
-                    <textarea name='field' rows={1} cols={30}></textarea>
+                    <input type='email' id='email' name='email' required className='form-input' />
                 </div>
-                <div className='fieldContainer'>
+                {/*<div className='fieldContainer'>
                     <label className='label'>Subject</label>
-                    <textarea name='field' rows={1} cols={30}></textarea>
-                </div>
-                <div className='fieldContainer'>
-                    <label className='label'>Message</label>
-                    <textarea name='field' rows={1} cols={30}></textarea>
-                </div>
-                <button className='button'>
                     
-                    <span style={{ fontSize: '13px', marginLeft: '5px' }} className='buttonTxt'>Submit</span>
+                </div>*/}
+                <div className='fieldContainer'>
+                    <label className='message'>Message</label>
+                    <textarea id='message' name='message' required className='form-textarea' />
+                </div>
+                {/*<input type='submit' value='Send' className='button' />*/}
+                <button type='submit' className='button'>
+                    <span style={{ fontSize: '13px', marginLeft: '2px' }} className='buttonTxt'>Submit</span>
                     <FontAwesomeIcon icon={faPaperPlane} style={{ fontSize: '13px', marginLeft: '5px' }} className='plane'/>
                 </button>
+                
             </div>
             <div className='cntLink'>
                 <a href='https://www.linkedin.com/in/jessica-x-fung/'>
@@ -52,6 +70,9 @@ export default function Contact(){
                 </a>
             </div>
                 
-        </div>
-    )
-}
+            </div>
+        </form>
+        
+    );
+};
+export default Contact;
