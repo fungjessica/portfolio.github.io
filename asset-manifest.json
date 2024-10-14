@@ -1,18 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio.github.io/static/css/main.f6646628.css",
-    "main.js": "/portfolio.github.io/static/js/main.43ab3a92.js",
+    "main.css": "/portfolio.github.io/static/css/main.881bdb3c.css",
+    "main.js": "/portfolio.github.io/static/js/main.fbbe8fe8.js",
     "static/js/453.bb257cf5.chunk.js": "/portfolio.github.io/static/js/453.bb257cf5.chunk.js",
     "static/media/sjsuTower.jpg": "/portfolio.github.io/static/media/sjsuTower.ea5355719beb0262415e.jpg",
+    "static/media/pythonLogo.png": "/portfolio.github.io/static/media/pythonLogo.c44b9b809ebf766cbb4f.png",
     "static/media/linkedpfp.jpg": "/portfolio.github.io/static/media/linkedpfp.ec9cf3ae43f127db5a92.jpg",
+    "static/media/reactLogo.png": "/portfolio.github.io/static/media/reactLogo.b48079c43a7c287cb669.png",
+    "static/media/c.png": "/portfolio.github.io/static/media/c.848ffa125321bf630b64.png",
+    "static/media/gitLogo.png": "/portfolio.github.io/static/media/gitLogo.52ffcca1c2260d3a141b.png",
+    "static/media/javaLogo.png": "/portfolio.github.io/static/media/javaLogo.fdabd4e11f1235e4e8e0.png",
     "static/media/Resume.pdf": "/portfolio.github.io/static/media/Resume.eaed5785c3272e04fefa.pdf",
+    "static/media/jsLogo.png": "/portfolio.github.io/static/media/jsLogo.83f816a137ee2ef5f733.png",
     "index.html": "/portfolio.github.io/index.html",
-    "main.f6646628.css.map": "/portfolio.github.io/static/css/main.f6646628.css.map",
-    "main.43ab3a92.js.map": "/portfolio.github.io/static/js/main.43ab3a92.js.map",
+    "main.881bdb3c.css.map": "/portfolio.github.io/static/css/main.881bdb3c.css.map",
+    "main.fbbe8fe8.js.map": "/portfolio.github.io/static/js/main.fbbe8fe8.js.map",
     "453.bb257cf5.chunk.js.map": "/portfolio.github.io/static/js/453.bb257cf5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6646628.css",
-    "static/js/main.43ab3a92.js"
+    "static/css/main.881bdb3c.css",
+    "static/js/main.fbbe8fe8.js"
   ]
 }
