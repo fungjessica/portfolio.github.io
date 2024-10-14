@@ -3,70 +3,58 @@ import './styles.css';
 import CollapsibleSection from './collapsibleSection';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSquareGithub } from '@fortawesome/free-brands-svg-icons';
+import { faRightToBracket } from '@fortawesome/free-solid-svg-icons';
 
 export default function Projects(){
     return(
-        <div className='aboutContainer'>
-            {/*<div className='projMainText'>
-                <h2><strong>My Projects</strong></h2>
-            </div>*/}
-            <div className='projectContent'>
-                <div className='pSecondaryText'>
-                    <div className='projectItem'>
-                        <CollapsibleSection title='Critter Crops'>
-                            {/*<h2><i>Critter Crops</i></h2>*/}
-                            
-                            <p className='projectDesc'>
-                                Critter Crops is a 2D, 16-bit style video game
-                                that I have been developing with a team in the Game Development Club
-                                at SJSU since September 2023. I assume the role of Producer and Backend Developer. I am in charge
-                                of overseeing the group's task timeline and completion, implementation, and 
-                                development of the game's inner mechanics. 
-                            </p>
-                            
-                            <p>
-                                During my time as the group leader, I have been able to improve my leadership, interpersonal,
-                                and communication skills, as well as my skills and knowledge of C# and debugging capabilities. 
-                                    
-                            </p>
-                            <a href='https://github.com/fungjessica/critter-crops/tree/jess'>
-                                <button className='button'>
-                                    <FontAwesomeIcon icon={faSquareGithub} style={{fontSize: '17px', marginRight: '5px'}}/>
-                                    <span style={{ fontSize: '13px'}} className='buttonTxt'>Github</span>
-                                </button>
-                            </a>
-                        </CollapsibleSection>
-                    </div>
+        <div className = 'qualContainer'>
+            <div className='columnL'>
+                <h1>Projects</h1>
+                <div className='section-divider'></div>
 
-                    <div className='projectItem'>
-                        <CollapsibleSection title='Library Management System'>
-                            <p className='projectDesc'>
-                            In my first semester at SJSU, I took a 
-                            class covering Object Oriented Programming in Java. The class
-                            included a massive 3-month long collaborative project that required us to
-                            develop a fully functional online library system using Java and JavaFX/Java Swing. 
-                            I was responsible for creating the library's
-                            backend, where the librarian is able to view the list of available books and its status'. 
-                            I was also responsible for designing the librarian's screen, using 
-                            JavaFX, now known as Java Swing. 
-                            </p>
-                            <p>
-                                As I collaborated with my team on this project, I gained communication and technical
-                                skills, especially expanding my knowledge of Java and learning how to utilize GitHub.
-                            
-                            </p>
-                            <a href='https://github.com/lisayu198/CS151-Library-Management-System-by-Jamba-Juice/tree/jess-branch'>
-                                <button className='gitHubButton'>
-                                    <span className='buttonTxt'>Github</span>
-                                </button>
-                            </a>
-                        </CollapsibleSection>
-                        {/*<h2><i>Library Management System</i></h2>*/}
-                        
+                <CollapsibleSection title='Critter Crops'>
+                    <div className='projDesc'>
+                        <p>Critter Crops is a video game I created with a group of friends
+                            at San Jose State's Game Development Club. We worked on this 
+                            project from September 2023 to May 2024. It is a 2D, pixelated
+                            game utilizing the Unity Game Engine and C#. The game's theme is
+                            a comfort farming simulator, inspired by hit titles such as Stardew Valley
+                            and Pokemon. 
+                        </p>
+                        <p>I was the team's producer and main developer, in charge of enforcing
+                            deadlines and the game's back-end functionalities. The main functions 
+                            I developed were player and NPC movement, player farming capabilities, and 
+                            special NPC skills.
+                        </p>
+                        <a href='https://github.com/fungjessica/critter-crops' target='_blank'>
+                            <button className='gitHubButton'>
+                                <span style={{ fontSize: '13px', marginLeft: '2px' }}>GitHub</span>
+                                <FontAwesomeIcon icon={faSquareGithub} style={{ fontSize: '15px', marginLeft: '5px' }}/>
+                            </button>
+                        </a>
                         
                     </div>
+                        
                     
-                </div>
+                </CollapsibleSection>
+                <CollapsibleSection title='Web-Based Star Tracker'>
+                    <div className='audDesc'>
+                        <p>Work in Progress!</p>
+
+                        <a href='https://github.com/fungjessica/starmap.github.io' target='_blank'>
+                            <button className='gitHubButton'>
+                                <span style={{ fontSize: '13px', marginLeft: '2px' }}>GitHub</span>
+                                <FontAwesomeIcon icon={faSquareGithub} style={{ fontSize: '15px', marginLeft: '5px' }}/>
+                            </button>
+                        </a>
+                        <a href='https://fungjessica.github.io/starmap.github.io/' target='_blank'>
+                            <button className='gitHubButton'>
+                                <span style={{ fontSize: '13px', marginLeft: '2px' }}>Website</span>
+                                <FontAwesomeIcon icon={faRightToBracket} style={{ fontSize: '15px', marginLeft: '5px' }}/>
+                            </button>
+                        </a>
+                    </div>
+                </CollapsibleSection>
             </div>
             
         </div>

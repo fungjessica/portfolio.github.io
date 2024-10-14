@@ -132,43 +132,13 @@ a{
     padding: 0 20px;
     color: #fffffe;
 }   */
-.projMainText{
-    margin-bottom: 5px;
-    margin-top: 20px;
+.projDesc{
+    width: 50%;
+    margin-left: 290px;
 }
 
-.pSecondaryText{
-    display: flex;
-    flex-direction: column;
-}
-.projectItem{
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-    justify-content: center;
-}
-.projectItem h2{
-    margin-left: 70px;
-}
-.projectItem p{
-    margin: 0;
-    margin-right: 10px;
-}
-.projectDesc{
-    margin-top: 5px;
-    padding-bottom: 10px;
-}
-.projectContent{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
 
 .gitHubButton {
-    display: flex; /* Use Flexbox for layout */
-    align-items: center; /* Vertically center items */
-    justify-content: center; /* Horizontally center items */
     padding: 10px 20px;
     border: 2px solid #64b5f6;
     background-color: white;
@@ -176,8 +146,9 @@ a{
     color: #64b5f6;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.4);
-    text-align: center;
-    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
   }
   
   .gitHubButton .icon {
@@ -215,23 +186,116 @@ color: white;
     box-shadow: 0 2px 4px rgba(0,0,0,0.4);*/
     text-align: center;
     margin-left: 10px;
-    margin-top: 3px;
-    margin-bottom: 10px;
-    font-size: 25px;
+    font-size: 20px;
     display: inline-block;
     font-weight: bold;
-    font-style: italic;
+    margin-bottom: 10px;
+    /*font-style: italic;*/
+    /*margin-top: 15px;*/
 }
 .qualContainer{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 20px;
+    align-items: flex-start;
     color: #fffffe;
-    text-align: center;
-    margin-top: 30px;
+    margin-top: 70px;
+    text-align:center;
+    margin-bottom: 30px;
 }
+.columnL, .columnR {
+    flex: 1; 
+    padding: 5px;
+    border: 2px solid #fffffe;
+    display: flex; 
+    flex-direction: column; 
+    margin-left: 25px;
+    margin-right: 25px;
+    top: 0;
+}
+.audDesc{
+    margin-left: 30px;
+    margin-right: 35px;
+    line-height: 0.5;
+}
+.workDesc{
+    margin-left: 37px;
+    margin-right: 35px;
+    line-height: 0.5;
+}
+.icon-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;  
+    justify-content: center;  
+    align-items: center;  
+}
+
+.icon{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;  
+    align-items: center;  
+    width: 60px; 
+    height: 60px; 
+    border-radius: 8px;  
+    box-sizing: border-box;  
+    text-align: center; 
+    margin-bottom: 10px;
+}
+
+.icon:hover {
+    transform: scale(1.1);  /* Slightly enlarge on hover */
+    transition: transform 0.2s;
+}
+
+.icon p {
+    line-height: 0.5;
+    margin: 5px 0 0; 
+    font-size: 0.9rem;  
+    margin-left: 27px;
+    margin-right: 27px;
+}
+.icon-box {
+    display: inline-block;
+    padding: 10px;
+    /*border: 2px solid #ffffff;  */
+    border-radius: 8px;         
+    background-color: #a2d2ff;  
+    margin: 5px;                
+}
+
+.skillsIcons{
+    font-size: 2rem;
+}
+.columnL{
+    flex: 1.25;
+}
+.columnR{
+    flex: 1;
+}
+
+.png{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.react{
+    padding-top: 5px;
+}
+.java{
+    padding-bottom: 2px;
+    padding-left: 2px;
+}
+.reactPNG{
+    height: 62px;
+    width: 62px;
+}
+.section-divider {
+    width: 80%;      /* Set width relative to parent container */
+    height: 2px;     /* Adjust thickness of the divider */
+    background-color: #ffffff;  /* Choose a color that fits your design */
+    margin: 20px auto;  /* Center and give space above and below */
+}
+
 
 /* contact page */
 
@@ -323,6 +387,7 @@ a:visited {
 
 
 
+
 /*smaller screens*/
 
 @media screen and (max-width: 768px) {
@@ -353,5 +418,28 @@ a:visited {
     .contactContainer{
         left: 23%;
     }
-    
+    .qualContainer{
+        display: grid;
+        flex-wrap: wrap;
+        grid-template-columns: 1fr;
+    }
+    .columnL, .columnR {
+      width: 100%;
+      margin-top: 10px;
+      height: auto;
+    }
+    .workDesc{
+        white-space: normal;
+        overflow-wrap: break-word;
+        line-height: 10px;
+    }
+  
+    .icon-row {
+      justify-content: center;
+    }
+  
+    .projDesc{
+        width: 50%;
+        margin-left: 150px;
+    }
 }

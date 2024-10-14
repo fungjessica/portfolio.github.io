@@ -62,12 +62,11 @@ const Contact = () =>{
                     <span className='contactTxt'>Prefer LinkedIn? Click here</span>
                 </a>
                 
-                {/*<button className='button'>
-                </button>*/}
-                <a href='https://www.google.com'>
+                
+                {/*<a href='https://www.google.com'>
                     <FontAwesomeIcon icon={faEnvelope} className='cntBtn'/>
                     <span className='contactTxt'>Prefer to email me directly? Click here</span>
-                </a>
+                </a>*/}
             </div>
                 
             </div>
