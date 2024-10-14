@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio.github.io/static/css/main.881bdb3c.css",
-    "main.js": "/portfolio.github.io/static/js/main.fbbe8fe8.js",
+    "main.js": "/portfolio.github.io/static/js/main.56bfc52f.js",
     "static/js/453.bb257cf5.chunk.js": "/portfolio.github.io/static/js/453.bb257cf5.chunk.js",
     "static/media/sjsuTower.jpg": "/portfolio.github.io/static/media/sjsuTower.ea5355719beb0262415e.jpg",
     "static/media/pythonLogo.png": "/portfolio.github.io/static/media/pythonLogo.c44b9b809ebf766cbb4f.png",
@@ -14,11 +14,11 @@
     "static/media/jsLogo.png": "/portfolio.github.io/static/media/jsLogo.83f816a137ee2ef5f733.png",
     "index.html": "/portfolio.github.io/index.html",
     "main.881bdb3c.css.map": "/portfolio.github.io/static/css/main.881bdb3c.css.map",
-    "main.fbbe8fe8.js.map": "/portfolio.github.io/static/js/main.fbbe8fe8.js.map",
+    "main.56bfc52f.js.map": "/portfolio.github.io/static/js/main.56bfc52f.js.map",
     "453.bb257cf5.chunk.js.map": "/portfolio.github.io/static/js/453.bb257cf5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.881bdb3c.css",
-    "static/js/main.fbbe8fe8.js"
+    "static/js/main.56bfc52f.js"
   ]
 }
