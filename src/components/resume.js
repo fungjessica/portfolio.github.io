@@ -69,7 +69,7 @@ export default function Resume(){
                 <div className='section-divider'></div>
                 <div className='workDesc'>
                     <p>Internal Audit IT Intern, Sanmina Corporation</p>
-                    
+                    <p>wip</p>
                 </div>
             </div>
             
