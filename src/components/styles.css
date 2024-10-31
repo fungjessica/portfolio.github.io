@@ -147,8 +147,7 @@ a{
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.4);
     margin-bottom: 10px;
-    margin-right: 5px;
-    margin-left: 5px;
+    
   }
   
   .gitHubButton .icon {
@@ -210,7 +209,9 @@ color: white;
     margin-left: 25px;
     margin-right: 25px;
     top: 0;
+    border-radius: 8px;
 }
+
 .audDesc{
     margin-left: 30px;
     margin-right: 35px;
@@ -219,7 +220,7 @@ color: white;
 .workDesc{
     margin-left: 37px;
     margin-right: 35px;
-    line-height: 0.5;
+    line-height: 1.2;
 }
 .icon-row {
     display: flex;
@@ -408,9 +409,7 @@ a:visited {
       flex-direction: column;
       align-items: flex-start;
     }
-    .qualContainer{
-        margin-top: 40px;
-    }
+    
     .projectItem{
         margin-top: 40px;
     }
@@ -419,19 +418,23 @@ a:visited {
         left: 23%;
     }
     .qualContainer{
-        display: grid;
-        flex-wrap: wrap;
-        grid-template-columns: 1fr;
+        margin-top: 50px; 
+        margin-bottom: 20px; 
+        flex-direction: column; 
+        text-align: center;
+        align-items: stretch;
     }
     .columnL, .columnR {
-      width: 100%;
-      margin-top: 10px;
-      height: auto;
+        padding: 3px; 
+        margin-left: 5px;
+        margin-right: 5px;
+        border-radius: 5px; 
+        margin-bottom: 10px;
     }
     .workDesc{
-        white-space: normal;
-        overflow-wrap: break-word;
-        line-height: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        line-height: 1.1;
     }
   
     .icon-row {

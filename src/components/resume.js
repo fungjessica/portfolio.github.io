@@ -59,7 +59,7 @@ export default function Resume(){
 
                 <CollapsibleSection title='Office'>
                     <div className='audDesc'>
-                        <p>hi</p>
+                        <p>Work in Progress!</p>
                     </div>
                 </CollapsibleSection>
             </div>
@@ -67,13 +67,23 @@ export default function Resume(){
             <div className='columnR'>
                 <h1>Work Experience</h1>
                 <div className='section-divider'></div>
-                <div className='workDesc'>
-                    <p>Internal Audit IT Intern, Sanmina Corporation</p>
-                    <p>wip</p>
+                    
+                        <h3>Internal Audit IT Intern, Sanmina Corporation</h3>
+                        <div className='workDesc'>
+                            <p>As an internal auditor, I performed tasks such as SQL script review and 
+                                data review for integrity and accuracy. I conducted audits focused on IT
+                                controls and worked closely with the company's IT Compliance department. 
+                                These audits would span over multiple Oracle systems, each with their
+                                own set of requirements. 
+                            </p>
+                            <p>As mentioned above, I also conducted SQL script review. These reviews were an in-depth
+                                analysis on the IT control's code, where I looked for any oddities or additional exclusions.
+                            </p>
+                         </div>
                 </div>
-            </div>
             
-        </div>
+            </div>
+        
     );
     
 }

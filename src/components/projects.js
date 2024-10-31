@@ -27,7 +27,7 @@ export default function Projects(){
                             special NPC skills.
                         </p>
                         <a href='https://github.com/fungjessica/critter-crops' target='_blank'>
-                            <button className='gitHubButton'>
+                            <button className='gitHubButton' style={{marginRight: '5px'}}>
                                 <span style={{ fontSize: '13px', marginLeft: '2px' }}>GitHub</span>
                                 <FontAwesomeIcon icon={faSquareGithub} style={{ fontSize: '15px', marginLeft: '5px' }}/>
                             </button>
@@ -42,13 +42,13 @@ export default function Projects(){
                         <p>Work in Progress!</p>
 
                         <a href='https://github.com/fungjessica/starmap.github.io' target='_blank'>
-                            <button className='gitHubButton'>
+                            <button className='gitHubButton' style={{marginRight: '5px'}}>
                                 <span style={{ fontSize: '13px', marginLeft: '2px' }}>GitHub</span>
                                 <FontAwesomeIcon icon={faSquareGithub} style={{ fontSize: '15px', marginLeft: '5px' }}/>
                             </button>
                         </a>
                         <a href='https://fungjessica.github.io/starmap.github.io/' target='_blank'>
-                            <button className='gitHubButton'>
+                            <button className='gitHubButton' style={{marginLeft: '5px'}}>
                                 <span style={{ fontSize: '13px', marginLeft: '2px' }}>Website</span>
                                 <FontAwesomeIcon icon={faRightToBracket} style={{ fontSize: '15px', marginLeft: '5px' }}/>
                             </button>

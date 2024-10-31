@@ -14,12 +14,12 @@ export default function About(){
                     </div>
                     <div className='aboutImgTxt'>
                         <p>My name is Jessica and I am a senior at San Jose State
-                            University, San Jose, California. 
+                            University in San Jose, California. 
                             I am pursuing a Bachelor's degree in Computer Science, with a minor in business. 
-                            I currently have an expected graduation date of December 2026. 
+                            I currently have an expected graduation date of June 2026. 
                         </p>
                         
-                        <p>I've always been interested in science and math, but 
+                        <p>I have always been interested in science and math, but 
                             I was mainly interested in game development. I started with 
                             making mods for existing video games before experimenting
                             with developing games on my own. I'm also interested in web design and development, especially UX/UI. 
