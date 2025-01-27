@@ -21,7 +21,7 @@ export default function Resume(){
                 <h3>Technical</h3>
                 <div className="icon-row">
                     <div className='icon'>
-                        <img src={javaLogo} className='reactPNG' />
+                        <img src={javaLogo} className='javaPNG' />
                         <p className='java'>Java</p>
                     </div>
                     <div className='icon'>
@@ -30,7 +30,7 @@ export default function Resume(){
                     </div>
                     <div className='icon'>
                         <img src={c} className='png'/>
-                        <p>C++</p>
+                        <p className='cSeries'>C++</p>
                     </div>
                     <div className='icon'>
                         <img src={pythonLogo} className='png' />
@@ -87,19 +87,3 @@ export default function Resume(){
     );
     
 }
-{/*<div className="icon">
-                        {icons.Java}
-                        <p>Java</p>
-                    </div>
-                    <div className="icon">
-                        {icons.Js}
-                        <p>JavaScript</p>
-                    </div>
-                    <div className='icon'>
-                        {icons.React}
-                        <p>React</p>
-                    </div>
-                    <div className='icon'>
-                        {icons.Python}
-                        <p>Python</p>
-                    </div>*/}

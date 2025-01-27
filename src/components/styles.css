@@ -42,8 +42,8 @@
 .button {
     display: flex;
     align-items: center;
-    justify-content: center; /* Centers content horizontally */
-    padding: 5px 10px; /* Adjust padding for size */
+    justify-content: center; 
+    padding: 5px 10px; 
     border: 3px solid #64b5f6;
     background-color: white;
     cursor: pointer;
@@ -88,14 +88,14 @@ a{
 }
 
 .aboutMainText {
-    margin-bottom: 20px; /* Adds some space below the main text */
+    margin-bottom: 20px; 
 }
 .aboutMainText h2{
     transform: translate(20%,0%);
 }
 .aboutContent {
     display: flex;
-    justify-content: center; /* Center the child elements horizontally */
+    justify-content: center; 
     align-items: center;
     width: 100%;
 }
@@ -104,7 +104,7 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 20px; /* Adds space between the two divs */
+    margin: 0 20px; 
 }
 
 .aboutImg {
@@ -151,7 +151,7 @@ a{
   }
   
   .gitHubButton .icon {
-    margin-right: 8px; /* Space between icon and text */
+    margin-right: 8px;
   }
   
 
@@ -233,10 +233,10 @@ color: white;
 .icon{
     display: flex;
     flex-direction: column; 
-    justify-content: center;  
+    justify-content: center;
     align-items: center;  
     width: 60px; 
-    height: 60px; 
+    height: auto; 
     border-radius: 8px;  
     box-sizing: border-box;  
     text-align: center; 
@@ -244,7 +244,7 @@ color: white;
 }
 
 .icon:hover {
-    transform: scale(1.1);  /* Slightly enlarge on hover */
+    transform: scale(1.1);  
     transition: transform 0.2s;
 }
 
@@ -252,8 +252,6 @@ color: white;
     line-height: 0.5;
     margin: 5px 0 0; 
     font-size: 0.9rem;  
-    margin-left: 27px;
-    margin-right: 27px;
 }
 .icon-box {
     display: inline-block;
@@ -280,21 +278,21 @@ color: white;
     margin-bottom: 10px;
 }
 .react{
-    padding-top: 5px;
-}
-.java{
-    padding-bottom: 2px;
-    padding-left: 2px;
+    padding-top: 3px;
 }
 .reactPNG{
+    height: 58px;
+    width: 62px;
+}
+.javaPNG{
     height: 62px;
     width: 62px;
 }
 .section-divider {
-    width: 80%;      /* Set width relative to parent container */
-    height: 2px;     /* Adjust thickness of the divider */
-    background-color: #ffffff;  /* Choose a color that fits your design */
-    margin: 20px auto;  /* Center and give space above and below */
+    width: 80%;      
+    height: 2px;   
+    background-color: #ffffff;  
+    margin: 20px auto;  
 }
 
 
@@ -333,7 +331,7 @@ color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%; /* or a fixed width, like 400px */
+    width: 100%; 
     padding: 10px;
     margin-bottom: 15px;
     font-size: 14px;
@@ -341,28 +339,28 @@ color: white;
 
 .fieldContainer {
     display: flex;
-    align-items: center; /* Aligns label and textarea vertically center */
-    gap: 10px; /* Adds space between label and textarea */
-    width: 50%; /* Ensures each field container takes full width */
-    max-width: 400px; /* Optional: Sets a max width to control the form's width */
+    align-items: center; 
+    gap: 10px; 
+    width: 50%; 
+    max-width: 400px; 
     
 }
 
 .label {
     font-size: 18px;
-    white-space: nowrap; /* Prevents text wrapping */
-    text-align: right; /* Aligns text to the right */
+    white-space: nowrap; 
+    text-align: right; 
     margin-bottom: 15px;
 }
 .message{
     font-size: 18px;
-    white-space: nowrap; /* Prevents text wrapping */
-    text-align: right; /* Aligns text to the right */
+    white-space: nowrap; 
+    text-align: right; 
       
 }
 textarea {
     padding: 8px;
-    flex: 1; /* Allows text area to take the remaining space in the field container */
+    flex: 1; 
 }
 
 
